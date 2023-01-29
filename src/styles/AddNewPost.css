@@ -1,0 +1,40 @@
+.add-new-post {
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 10px;
+}
+
+.add-new-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--background);
+}
+
+.add-new-post-button {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+.add-new-post-header span {
+    font-weight: bold;
+}
+
+.add-new-post-wrapper-avatar-name {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.add-new-post-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn-close {
+    min-width: 44px;
+    min-height: 44px;
+}

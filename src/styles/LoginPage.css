@@ -1,0 +1,13 @@
+.form-card {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-title-login-page {
+    text-align: center;
+}
+
+.button-login {
+    width: 100%;
+    min-height: 48px;
+    font-size: 20px;
+}

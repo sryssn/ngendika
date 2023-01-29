@@ -1,0 +1,155 @@
+@import './AddNewPost.css';
+@import './DetailPage.css';
+@import './HomePage.css';
+@import './LoginPage.css';
+@import './RegisterPage.css';
+@import './LeaderboardsPage.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0d6efd;
+    --secondary: #36a420;
+    --grey: #e4e6eb;
+    --background: #f0f2f5;
+    --on-background: #1c1e21;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--on-background);
+    background-color: var(--background);
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-container {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.login-page, .signup-page {
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.login-register-page-copyright {
+    color: var(--on-background);
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrap-button-signup {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-login-page, .brand-signup-page {
+    color: var(--primary);
+    text-align: center;
+    font-weight: bold;
+    margin: 50px auto 20px;
+}
+
+.text-field {
+    min-height: 48px;
+}
+
+.button-signup {
+    min-height: 48px;
+    font-size: 17px;
+    width: 50%;
+}
+
+.home-page-main-avatar, .add-new-page-avatar, .detail-page-main-avatar, .avatar-comment {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+
+.post-name {
+    font-weight: bold;
+}
+
+.post-date {
+    font-size: 14px;
+}
+
+.like-comment-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.number-of-likes-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.number-of-likes {
+    margin-left: 5px;
+}
+
+.button-like-wrapper, .button-comment-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: var(--on-background);
+    cursor: pointer;
+    background-color: #ffffff;
+    min-height: 44px;
+}
+
+.button-like-icon, .button-comment-icon {
+    min-height: 21px;
+    min-width: 21px;
+}
+
+.button-like-wrapper span, .button-comment-wrapper span {
+    margin-left: 5px;
+}
+
+.post-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-body h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post-body p {
+    margin-bottom: 8px;
+}
+
+.likeButton {
+    color: var(--primary);
+}
+
+.page-not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.page-not-found h1 {
+    color: var(--primary);
+    font-weight: bold;
+}
